@@ -10,28 +10,32 @@ export default class About extends Component {
                 </div>
                 <div className="nine columns main-col">
                   <h2>About Me</h2>
-                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                    eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                    voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-                    voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-                    sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-                    Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.
+                  <p>I have always loved to create -
+                      to build and break things. I learn best from my mistakes
+                      and enjoy problem solving of any kind. This has translated
+                      into a professional career in software development. I am
+                      a Solutions Architect, able to understand complex technical
+                      issues and design, develop, and deploy software accordingly.
+                      I have experience in full stack development, especially
+                      React.js, event driven architecture like AWS Lamba, queueing
+                      services like Kafka, data streams like Kinesis, relational
+                      database systems like Posgres, and NoSQL technologies like
+                      DynamoDB and Cassandra.
                   </p>
                   <div className="row">
                     <div className="columns contact-details">
                       <h2>Contact Details</h2>
                       <p className="address">
-                        <span>Jonathan Doe</span><br />
-                        <span>1600 Amphitheatre Parkway<br />
-                          Mountain View, CA 94043 US
+                        <span>Connor Kunstek</span><br />
+                        <span>Cincinnati, OH
                         </span><br />
-                        <span>(123)456-7890</span><br />
-                        <span>anyone@website.com</span>
+                        <span>(513) 384-7261</span><br />
+                        <span>connork720@gmail.com</span>
                       </p>
                     </div>
                     <div className="columns download">
                       <p>
-                        <a href="#" className="button"><i className="fa fa-download" />Download Resume</a>
+                        <a href="files/ConnorKunstekResume.pdf" className="button" target="_blank"><i className="fa fa-download" />Download Resume</a>
                       </p>
                     </div>
                   </div> {/* end row */}
