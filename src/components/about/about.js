@@ -18,7 +18,7 @@ export default class About extends Component {
                       issues and design, develop, and deploy software accordingly.
                       I have experience in full stack development, event driven
                       architecture, queueing services, data streams, relational
-                      and non-relational database systems, and container technology.
+                      and non-relational database systems, and containerization technology.
                   </p>
                   <div className="row">
                     <div className="columns contact-details">
