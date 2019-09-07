@@ -6,17 +6,17 @@ export default class Portfolio extends Component {
       <section id="portfolio">
 <div className="row">
 <div className="twelve columns collapsed">
-  <h1>Check Out Some of My Works.</h1>
+  <h1></h1>
   {/* portfolio-wrapper */}
   <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
     <div className="columns portfolio-item">
       <div className="item-wrap">
         <a href="#modal-01" title>
-          <img alt="" src="images/portfolio/coffee.jpg" />
+          <img alt="" src="images/blueprintpng.png" />
           <div className="overlay">
             <div className="portfolio-item-meta">
-              <h5>Coffee</h5>
-              <p>Illustrration</p>
+              <h5>BluePrint JS</h5>
+              <p>Web Design</p>
             </div>
           </div>
           <div className="link-icon"><i className="icon-plus" /></div>
@@ -26,10 +26,10 @@ export default class Portfolio extends Component {
     <div className="columns portfolio-item">
       <div className="item-wrap">
         <a href="#modal-02" title>
-          <img alt="" src="images/portfolio/console.jpg" />
+          <img alt="" src="images/react.png" />
           <div className="overlay">
             <div className="portfolio-item-meta">
-              <h5>Console</h5>
+              <h5>React JS</h5>
               <p>Web Development</p>
             </div>
           </div>
@@ -40,11 +40,11 @@ export default class Portfolio extends Component {
     <div className="columns portfolio-item">
       <div className="item-wrap">
         <a href="#modal-03" title>
-          <img alt="" src="images/portfolio/judah.jpg" />
+          <img alt="" src="images/node.png" />
           <div className="overlay">
             <div className="portfolio-item-meta">
-              <h5>Judah</h5>
-              <p>Webdesign</p>
+              <h5>Node JS</h5>
+              <p>Back End</p>
             </div>
           </div>
           <div className="link-icon"><i className="icon-plus" /></div>
@@ -54,11 +54,11 @@ export default class Portfolio extends Component {
     <div className="columns portfolio-item">
       <div className="item-wrap">
         <a href="#modal-04" title>
-          <img alt="" src="images/portfolio/into-the-light.jpg" />
+          <img alt="" src="images/lambda.png" />
           <div className="overlay">
             <div className="portfolio-item-meta">
-              <h5>Into The Light</h5>
-              <p>Photography</p>
+              <h5>Lambda</h5>
+              <p>Serverless, Event Driven</p>
             </div>
           </div>
           <div className="link-icon"><i className="icon-plus" /></div>
@@ -68,11 +68,11 @@ export default class Portfolio extends Component {
     <div className="columns portfolio-item">
       <div className="item-wrap">
         <a href="#modal-05" title>
-          <img alt="" src="images/portfolio/farmerboy.jpg" />
+          <img alt="" src="images/kafka.png" />
           <div className="overlay">
             <div className="portfolio-item-meta">
-              <h5>Farmer Boy</h5>
-              <p>Branding</p>
+              <h5>Kafka</h5>
+              <p>Queueing System</p>
             </div>
           </div>
           <div className="link-icon"><i className="icon-plus" /></div>
@@ -82,11 +82,11 @@ export default class Portfolio extends Component {
     <div className="columns portfolio-item">
       <div className="item-wrap">
         <a href="#modal-06" title>
-          <img alt="" src="images/portfolio/girl.jpg" />
+          <img alt="" src="images/kinesis.png" />
           <div className="overlay">
             <div className="portfolio-item-meta">
-              <h5>Girl</h5>
-              <p>Photography</p>
+              <h5>Kinesis</h5>
+              <p>Data Streaming</p>
             </div>
           </div>
           <div className="link-icon"><i className="icon-plus" /></div>
@@ -96,11 +96,11 @@ export default class Portfolio extends Component {
     <div className="columns portfolio-item">
       <div className="item-wrap">
         <a href="#modal-07" title>
-          <img alt="" src="images/portfolio/origami.jpg" />
+          <img alt="" src="images/postgres.png" />
           <div className="overlay">
             <div className="portfolio-item-meta">
-              <h5>Origami</h5>
-              <p>Illustrration</p>
+              <h5>PostgreSQL</h5>
+              <p>Relational DB</p>
             </div>
           </div>
           <div className="link-icon"><i className="icon-plus" /></div>
@@ -110,11 +110,11 @@ export default class Portfolio extends Component {
     <div className="columns portfolio-item">
       <div className="item-wrap">
         <a href="#modal-08" title>
-          <img alt="" src="images/portfolio/retrocam.jpg" />
+          <img alt="" src="images/docker.png" />
           <div className="overlay">
             <div className="portfolio-item-meta">
-              <h5>Retrocam</h5>
-              <p>Web Development</p>
+              <h5>Docker</h5>
+              <p>Containerization</p>
             </div>
           </div>
           <div className="link-icon"><i className="icon-plus" /></div>

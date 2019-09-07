@@ -6,7 +6,7 @@ export default class About extends Component {
         <section id="about">
             <div className="row">
                 <div className="three columns">
-                  <img className="profile-pic" src="images/profilepic.jpg" alt="" />
+                  <img className="profile-pic" src="files/profilepic.jpg" alt="" />
                 </div>
                 <div className="nine columns main-col">
                   <h2>About Me</h2>
@@ -19,7 +19,7 @@ export default class About extends Component {
                       I have experience in full stack development, especially
                       React.js, event driven architecture like AWS Lamba, queueing
                       services like Kafka, data streams like Kinesis, relational
-                      database systems like Posgres, and NoSQL technologies like
+                      database systems like PosgreSQL, and NoSQL technologies like
                       DynamoDB and Cassandra.
                   </p>
                   <div className="row">

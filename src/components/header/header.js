@@ -11,16 +11,18 @@ export default class Header extends Component {
                 <ul id="nav" className="nav">
                   <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
                   <li><a className="smoothscroll" href="#about">About</a></li>
+                  <li><a className="smoothscroll" href="#skills">Skills</a></li>
                   <li><a className="smoothscroll" href="#resume">Resume</a></li>
+
                   <li><a className="smoothscroll" href="#portfolio">Works</a></li>
                   <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
                 </ul> {/* end #nav */}
             </nav> {/* end #nav-wrap */}
             <div className="row banner">
                 <div className="banner-text">
-                  <h1 className="responsive-headline">I'm {resumeData.name}</h1>
-                  <h3>I'm a <span>solutions architect</span>, <span>full stack developer</span>, and <span>data engineer</span> creating powerful
-                  software using modern technology like Kafka, React, and DynamoDB.  <a className="smoothscroll" href="#about">Start scrolling </a> to see <a className="smoothscroll" href="#about">my resume and skills</a>.</h3>
+                  <h1 className="responsive-headline">Hello! <br /> I'm {resumeData.name}</h1>
+                  <h3>I'm a full stack developer, data engineer and solutions architect creating powerful
+                  software using modern technology. <br /> <a className="smoothscroll" href="#about">Start scrolling to see more</a>.</h3>
                   <hr />
                   <ul className="social">
                     <li><a href="https://www.linkedin.com/in/connor-kunstek-3833a3106/" target="_blank"><i className="fa fa-linkedin" /></a></li>
