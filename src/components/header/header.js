@@ -20,7 +20,7 @@ export default class Header extends Component {
                 <div className="banner-text">
                   <h1 className="responsive-headline">I'm {resumeData.name}</h1>
                   <h3>I'm a <span>solutions architect</span>, <span>full stack developer</span>, and <span>data engineer</span> creating powerful
-                  software using modern technology like Kafka, React, and DynamoDB.  Let's <a className="smoothscroll" href="#about">start scrolling </a> and learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
+                  software using modern technology like Kafka, React, and DynamoDB.  <a className="smoothscroll" href="#about">Start scrolling </a> to see <a className="smoothscroll" href="#about">my resume and skills</a>.</h3>
                   <hr />
                   <ul className="social">
                     <li><a href="https://www.linkedin.com/in/connor-kunstek-3833a3106/" target="_blank"><i className="fa fa-linkedin" /></a></li>
