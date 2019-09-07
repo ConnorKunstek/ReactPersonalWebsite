@@ -16,11 +16,9 @@ export default class About extends Component {
                       into a professional career in software development. I am
                       a Solutions Architect, able to understand complex technical
                       issues and design, develop, and deploy software accordingly.
-                      I have experience in full stack development, especially
-                      React.js, event driven architecture like AWS Lamba, queueing
-                      services like Kafka, data streams like Kinesis, relational
-                      database systems like PosgreSQL, and NoSQL technologies like
-                      DynamoDB and Cassandra.
+                      I have experience in full stack development, event driven
+                      architecture, queueing services, data streams, relational
+                      and non-relational database systems, and container technology.
                   </p>
                   <div className="row">
                     <div className="columns contact-details">
