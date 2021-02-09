@@ -13,8 +13,8 @@ export default class Resume extends Component {
             <div className="nine columns main-col">
               <div className="row item">
                 <div className="twelve columns">
-                  <h3>University of Xavier</h3>
-                  <p className="info">Master of Business Administration<span>•</span> <em className="date">October 2019</em></p>
+                  <h3>Xavier University</h3>
+                  <p className="info">Master of Business Administration<span>•</span> <em className="date">Started October 2019</em></p>
                   <p>
                   TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO
                   TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO
@@ -26,7 +26,7 @@ export default class Resume extends Component {
               <div className="row item">
                 <div className="twelve columns">
                   <h3>University of Kentucky</h3>
-                  <p className="info">Bachelors of Science in Computer Science<span>•</span> <em className="date">May 2019</em></p>
+                  <p className="info">Bachelors of Science in Computer Science<span>•</span> <em className="date">Graduated May 2019</em></p>
                   <p>
                   TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO
                   TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO
