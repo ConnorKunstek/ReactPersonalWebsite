@@ -15,7 +15,6 @@ class App extends Component {
     return (
       <div className="App">
         <Header resumeData={resumeData}/>
-        
         <About />
         <Skills />
         <Resume />
