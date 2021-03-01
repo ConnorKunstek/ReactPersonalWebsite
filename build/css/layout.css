@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #1F1F1F url(../images/bluespacelake.jpg) no-repeat center center;
+   background: #1F1F1F url(../images/galaxy.png) no-repeat center center;
    background-size: cover !important;
    -webkit-background-size: cover !important;
    background-attachment: fixed;
@@ -46,7 +46,6 @@ header {
 	-webkit-background-size: cover !important;
    text-align: center;
    overflow: hidden;
-
 }
 
 /* vertically center banner section */
@@ -54,23 +53,14 @@ header:before {
    content: '';
    display: inline-block;
    vertical-align: middle;
-   left: 0;
-   top: 0;
    height: 100%;
-   /* width: 100%; */
-   z-index: -10;
-   background: #1F1F1F url(../images/bluespacelake.jpg) no-repeat center center; */
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-    background-size: cover;
 }
 header .banner {
    display: inline-block;
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;
+   padding-bottom: 30px;s
    text-align: center;
 }
 
@@ -81,6 +71,7 @@ header .banner-text h1 {
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
    text-shadow: 3px 4px 5px rgba(0, 0, 0, .8);
+   padding-top: 200px;
 }
 header .banner-text h3 {
    font: 22px/1.9em 'librebaskerville-regular', serif;
@@ -138,13 +129,6 @@ header .scrolldown a {
 }
 header .scrolldown a:hover { color: #F06000; }
 
-header .quote {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    color: #fff;
-    font-size: 24px;
-}
-
 /* primary navigation
 --------------------------------------------------------------------- */
 #nav-wrap ul, #nav-wrap li, #nav-wrap a {
@@ -166,7 +150,7 @@ header .quote {
    left: 0;
    top: 0;
 }
-.opaque { background: #1F1F1F url(../images/bluespacelake.jpg) no-repeat center center;
+.opaque { background: #1F1F1F url(../images/galaxy.png) no-repeat center center;
 background-size: cover !important;
 -webkit-background-size: cover !important;
 background-attachment: fixed;
@@ -214,27 +198,6 @@ ul#nav li a {
 ul#nav li a:active { background-color: transparent !important; }
 ul#nav li.current a { color: #F06000; }
 
-#quote {
-    background: #1F1F1F url(../images/bluespacelake.jpg) no-repeat center center;
-    background-size: cover !important;
-    -webkit-background-size: cover !important;
-    background-attachment: fixed;
-
-    position: relative;
-    min-height: 200px;
-    width: 100%;
-    padding-top: 800px;
-    padding-bottom: 750px;
-}
-
-#quote h1 {
-   font: 35px/24px 'opensans-bold', sans-serif;
-   text-transform: uppercase;
-   letter-spacing: 3px;
-   color: #fff;
-   text-shadow: 3px 4px 5px rgba(0, 0, 0, .8);
-}
-
 
 /* ------------------------------------------------------------------ */
 /* c. About Section
@@ -242,8 +205,8 @@ ul#nav li.current a { color: #F06000; }
 
 #about {
    background: #F06000;
-   padding-top: 66px;
-   padding-bottom: 46px;
+   padding-top: 96px;
+   padding-bottom: 66px;
    overflow: hidden;
 }
 
@@ -273,7 +236,7 @@ ul#nav li.current a { color: #F06000; }
 #about .main-col { padding-right: 5%; }
 #about .download .button {
    margin-top: 6px;
-   background: #1F1F1F url(../images/bluespacelake.jpg) no-repeat center center;
+   background: #1F1F1F url(../images/galaxy.png) no-repeat center center;
    background-size: cover !important;
    -webkit-background-size: cover !important;
    background-attachment: fixed;
@@ -347,7 +310,7 @@ ul#nav li.current a { color: #F06000; }
 /* INSERTED BELOW */
 
 #skills {
-    background: #1F1F1F url(../images/bluespacelake.jpg) no-repeat center center;
+    background: #1F1F1F url(../images/galaxy.png) no-repeat center center;
     background-size: cover !important;
  	-webkit-background-size: cover !important;
     background-attachment: fixed;
@@ -530,7 +493,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-    background: #1F1F1F url(../images/bluespacelake.jpg) no-repeat center center;
+    background: #1F1F1F url(../images/galaxy.png) no-repeat center center;
     background-size: cover !important;
  	-webkit-background-size: cover !important;
     background-attachment: fixed;
@@ -764,7 +727,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-   background: #1F1F1F url(../images/bluespacelake.jpg) no-repeat center center;
+   background: #1F1F1F url(../images/galaxy.png) no-repeat center center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    background-attachment: fixed;
@@ -797,7 +760,7 @@ call-to-action .button {
    text-align: left;
    float: left;
    color: #fff;
-   text-shadow: 3px 4px 5px rgba(0, 0, 0, .8);iptables -t nat -A OUTPUT -o lo -p tcp --dport 80 -j REDIRECT --to-port 8080
+   text-shadow: 3px 4px 5px rgba(0, 0, 0, .8);
 }
 
 /*	Blockquotes */
